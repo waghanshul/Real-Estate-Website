@@ -37,4 +37,5 @@ model Residency {
     @@unique(fields: [address, userEmail])
 
 
+
 }
