@@ -4,6 +4,7 @@
     "dayjs": "^1.11.13",
     "express": "^4.21.0",
     "react-router-dom": "6.10.0",
+    "react-spinners": "^0.14.1",
     "react-toastify": "^10.0.6"
   }
 }
