@@ -1,12 +1,25 @@
 {
   "dependencies": {
+    "@auth0/auth0-react": "2.2.4",
     "axios": "^1.7.7",
     "dayjs": "^1.11.13",
     "esri-leaflet-geocoder": "2.3.3",
     "express": "^4.21.0",
     "lodash": "^4.17.21",
+    "react": "18",
+    "react-dom": "18",
     "react-router-dom": "6.10.0",
     "react-spinners": "^0.14.1",
     "react-toastify": "^10.0.6"
+  },
+  "scripts": {
+    "clean": "rimraf node_modules/.vite node_modules dist",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "vite": "^5.4.10"
   }
 }
